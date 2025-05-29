@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Portafolio</title>
+  <meta name="description" content="Personal portafolio of Mariana as a Riwi developer."> 
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <style>
+    .about_me {
+      max-width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+    }
+   
+  </style>
+
+  <h1>Mariana Restrepo Acevedo - Riwi Developer</h1>
+
+  <nav>
+
+    <ul>
+      <li><a href="#about_me">About Me</a></li>
+      <li><a href="#mySkills">My Skills</a></li>
+      <li><a href="#proyects">My Proyects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="about_me">
+      <h2>About Me</h2>
+      <p>Hello, my name is Mariana.</p>
+      <p>I am passionate about software development. </p>
+      <p>I'm always looking to improve my skills and learn new technologies to become a better developer every day.</p>
+      <img src="Mariana.jpg" alt="Mariana's photo">
+    </div>
+  </section>
+
+  <section id="mySkills">
+    <table id="table_skills">
+        <tr>
+            <th colspan="4"><h2>My skills</h2></th>
+        </tr>
+    <tr>
+        <td>
+            <p>Python</p>
+            <img src="https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png" alt="Python logo">
+        </td>
+        <td>
+            <p>HTML</p>
+            <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png" alt="Html logo">
+        </td>
+        <td>
+            <p>CSS</p>           
+            <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS logo">
+        </td>
+        <td>
+            <p>JAVA</p>
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="Java logo">
+        </td>
+    </tr>
+    </table>
+  </section>
+
+  <section id="proyects">
+    <h2>My Proyects</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Proyect Name</th>
+          <th>Technologies Used</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Proyect 1: Library Management System</td>
+          <td>Python</td>
+          <td><a href="https://github.com/Karina0517/tallerLibreria" target="_blank">See Project</a></td>
+        </tr>
+        <tr>
+          <td>Proyect 2: My Portafolio</td>
+          <td>HTML and CSS</td>
+          <td><a href="http://127.0.0.1:5500/My%20portafolio/portafolio_Mariana.html#contact" target="_blank">See Project</a></td>
+        </tr>
+        <tr>
+          <td>Proyect 3: Restaurant Menu</td>
+          <td>HTML and CSS</td>
+          <td><img src="./menuQR.png" alt="QR Restaurant Menu"></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="3" cols="70" required></textarea><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow me:
+      <a href="https://github.com/marianarestrepo26"_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
